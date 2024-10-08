@@ -1,8 +1,15 @@
 ################################# MASTER STATS CODE ###########################################
 #Much of this code is based on Dr. Teresa Treat's code from Mixed Effects Modeling in Psychology
-#Which is an outstanding course that everyone interested in doing good statistics should take
-#Compiled and expanded by Erik Jorgensen, AuD
-#University of Iowa 2019
+#Which is an outstanding course that everyone interested in doing good statistics should take.
+#
+# The general structures of real-world statistical anlyses performed by the Soundscape & Audiology Research Lab
+# are based on code contained in this compilation. The code here is well-suited for statistical analyses of real-world data
+# which typically involves repeated sampling. For details, see Oleson et al., 2022 ("Statistical Considertions for 
+# Analyzing Ecological Momentary Assessment Data").
+#
+#Compiled and expanded by Erik Jorgensen, AuD, PhD
+#UW-Madison 2024
+#Original version: University of Iowa 2019
 
 ################################# CONTENTS ##################################################
 #1. Read Data
