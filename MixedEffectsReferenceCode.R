@@ -448,7 +448,7 @@ rstandard(model1)   #standardized residuals
 hist(residuals(model1))    #unstandardized residuals
 hist(rstandard(model1))    #standardized residuals
 ##Note that you could write these to a tab-delimited text file to figure out problematic cases.
-write.table(rstandard(model1), "C:\\Users\\Teresa\\Desktop\\tempfile3.txt", sep="\t") 
+write.table(rstandard(model1), "pathTofile", sep="\t") 
 ##Bonferroni test of standardized residuals
 outlierTest(model1)
 ##Q-Q Plot of residuals
